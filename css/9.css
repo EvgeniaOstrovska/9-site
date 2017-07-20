@@ -1,0 +1,30 @@
+.weather {
+  width: 130px;
+  height: 170px;
+  background: white;
+  float: left;
+  margin-right: 5px;
+}
+
+.day {
+  background: #00BFFF;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.weather img{
+  display: block;
+  margin: 0 auto;  
+}
+
+.temp {
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+}
+
+.weather:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
